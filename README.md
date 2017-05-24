@@ -1,16 +1,19 @@
-Globally Accessible Data Store (GADS)
-=====================================
+
+
+# Globally Accessible Data Store (GADS)
 
 GADS is designed as an online replacement for spreadsheets being used to store lists of data.
 
+This is an addition to the README
+
 GADS provides a much more user-friendly interface and makes the data easier to maintain. Its features include:
 
-- Allow multiple users to view and update data simultaneously
-- Customise data views by user
-- Easy version control
-- Approval process for updating data fields
-- Basic graph functionality
-- Red/Amber/Green calculated status indicators for values
+* Allow multiple users to view and update data simultaneously
+* Customise data views by user
+* Easy version control
+* Approval process for updating data fields
+* Basic graph functionality
+* Red/Amber/Green calculated status indicators for values
 
 # Installation
 
@@ -28,7 +31,7 @@ cp config.yml-example config.yml
 
 # Create database (MySQL)
 mysql> CREATE DATABASE gads CHARACTER SET utf8 COLLATE utf8_general_ci;
-mysql> GRANT ALL ON gads5.* TO 'gads'@'localhost' IDENTIFIED BY 'mysecret';
+mysql> GRANT ALL ON gads5.\* TO 'gads'@'localhost' IDENTIFIED BY 'mysecret';
 
 # Create database (PostgreSQL)
 postgres=# CREATE USER gads WITH PASSWORD 'xxx';
@@ -41,6 +44,7 @@ bin/seed-database.pl
 ```
 
 # Manually seeding database
+
 ```
 # Deploy database (MySQL)
 DBIC_MIGRATION_USERNAME=gads DBIC_MIGRATION_PASSWORD=mysecret \
@@ -54,7 +58,6 @@ DBIC_MIGRATION_USERNAME=gads DBIC_MIGRATION_PASSWORD=mysecret \
     --dsn='dbi:mysql:database=gads' --dbic_connect_attrs \
     quote_names=1 populate --fixture_set permissions
 
-
 # Deploy database (PostgreSQL)
 DBIC_MIGRATION_USERNAME=gads DBIC_MIGRATION_PASSWORD=mysecret \
     dbic-migration -Ilib --schema_class='GADS::Schema' \
@@ -66,7 +69,6 @@ DBIC_MIGRATION_USERNAME=gads DBIC_MIGRATION_PASSWORD=mysecret \
     dbic-migration -Ilib --schema_class='GADS::Schema' \
     --dsn='dbi:Pg:database=gads' --dbic_connect_attrs \
     quote_names=1 populate --fixture_set permissions
-
 
 # Insert user into user table.
 # Insert instance into instance table.
@@ -88,6 +90,7 @@ $ bin/app.pl
 ```
 
 ## Other useful dbic-migration commands
+
 ```
 # Dump all data to fixtures
 ... dump_all_sets --fixture_sets all_tables
@@ -96,8 +99,8 @@ $ bin/app.pl
 ```
 
 ## Data
+
 ```
 bin/generate.pl # Generate random data
 bin/onboard.pl --take-first-enum new.csv # Import random data
 ```
-
