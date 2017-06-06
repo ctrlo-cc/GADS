@@ -6,6 +6,6 @@
 
 To add a new table:
 
-1. Click on&nbsp;**Table editor**&nbsp;in the main menu.
-2. Select&nbsp;**Add a table**&nbsp;from the drop-down menu.
-3. Complete the&nbsp;**Name of table**&nbsp;field and click&nbsp;**Save**.
+1. Click **Table editor** in the main menu.
+2. Select **Add a table** from the drop-down menu.
+3. Complete **Name of table** field and click&nbsp;**Save**.
