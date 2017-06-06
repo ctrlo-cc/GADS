@@ -13,5 +13,5 @@ To add a new field:
 5. If you want to, you can give your field a&nbsp;**Short name description**&nbsp;too. You can use this when referencing the field in a calculation.
 6. You can also add Help text for the user. This will be displayed when a user clicks on the question mark (?) next to the field name. Use it to provide guidelines or answer any common questions a user might have about that values they must enter.
 7. Tick the boxes if you want the field to be optional, if you want Linkspace to remember and display the last value that was typed in for that field when a new record is added, and if you want all values for the field to be unique.
-8. If you want to, you can set the conditions under which you want the field to be displayed. This enables you to display fields based on values a user enters for another field.&nbsp;[More about controlling when a field is displayed](.040-field-display.md)
+8. If you want to, you can set the conditions under which you want the field to be displayed. This enables you to display fields based on values a user enters for another field.&nbsp;[More about controlling when a field is displayed](040-field-display.md)
 9. Click&nbsp;**Save**.
