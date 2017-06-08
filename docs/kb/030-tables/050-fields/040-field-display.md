@@ -13,7 +13,7 @@ To set the conditions for displaying a field on the **Add a record&nbsp;**or&nbs
    For example:
 
    * If you want the field to be displayed if any value is entered in the other field, you would express this as: .+
-   * If you want the field to be displayed only if the value entered in the other field contains the word "project", you could express this condition as: &nbsp;.\*project.\*&nbsp;
+   * If you want the field to be displayed only if the value entered in the other field contains the word "project", you could express this condition as: &nbsp;.\*project.\* 
    * If you want the field to be displayed only if the value entered in the other field starts with the letters "BTN", you would express this condition as: BTN.\*
    * If you want the field to be displayed only if the value entered in the other field is greater than 300 but less than 1000, you would express this condition as: [3-9][0-9][0-9]
    * If you want the field to be displayed if one of three values it entered in the other field, you would express this as: (value 1|value 2|value 3)
