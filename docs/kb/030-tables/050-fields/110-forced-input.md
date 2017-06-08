@@ -2,7 +2,7 @@
 
 # Force a user to enter a value in a specific format
 
-**If you want the values in a text field to be in a specific format, you can use a regular expression to describe the pattern a value must follow to be valid. &nbsp;**
+**If you want the values in a text field to be in a specific format, you can use a regular expression to describe the pattern a value must follow to be valid. **
 
 For example:
 
