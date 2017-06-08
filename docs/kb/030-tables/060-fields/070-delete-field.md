@@ -9,4 +9,4 @@ To delete a field:
 3. Click the&nbsp;**Delete&nbsp;**button at the bottom of the Edit field screen.
 4. You will be asked if you are sure you want to delete the field. Click&nbsp;**Delete now**&nbsp;on the pop-up to confirm deletion.
 
-NOTE: When you delete a field you also delete all its associated data.
+NOTE: When you delete a field you also delete all the data for that field.
