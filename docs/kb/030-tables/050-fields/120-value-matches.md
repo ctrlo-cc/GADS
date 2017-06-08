@@ -1,8 +1,9 @@
 
 
-| For an exact match | Enter the text you want to match
+# Using regular expressions to match field values
 
-| ---If you want the field to be displayed only if--- | --- |
+| If you want the field to be displayed only if | &nbsp; |
+| --- | ---|
 | The value entered in the other field is an exact match | Enter the text you want to match |
 | If you want the field to be displayed if any value is entered in the other field | .+  |
 | If you want the field to be displayed only if the value entered in the other field contains the word "project" | \*project.\*  |
