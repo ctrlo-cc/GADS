@@ -1,14 +1,8 @@
 
 
-For an exact match
-
-Enter the text you want to match
-
-To match any non-blank value
-
-.+
-
-To match any of three values e.g. ”1”, ”17” or ”300 (comment)”:
+| For an exact match | Enter the text you want to match |
+| To match any non-blank value | .+ |
+| To match any of three values e.g. 1, 12 and 24 | (1|12|24) |
 
 (1|17|300 \(comment\))
 
