@@ -6,7 +6,7 @@
 
 To create an imported values field you need to select the field type :
 
-1. Select the radio button to set whether a user can choose the correct value from a dropdown list or type into an autocomplete textbox.&nbsp;
+1. Select the radio button to set whether a user can choose the correct value from a dropdown list or type into an autocomplete text box.&nbsp;
 2. Click the radio button if you want to **override user permissions** that exist for the table and the fields that you want to pull into the field. For example, you would have to select this if your users don't have read permissions on the table you are referencing.&nbsp;
 3. Select the table you want to use from the **Use this table** dropdown.
 4. Tick the fields you want to include in your field.
