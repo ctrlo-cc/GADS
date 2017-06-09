@@ -1,10 +1,13 @@
-# Add a new record
 
-To add a new record to a Linkspace table:
 
-1. Check that you have the correct table selected from the Table dropdown list at the top of your screen.
-2. Select the&nbsp;**Records**&nbsp;tab in the main menu.
-2. Select&nbsp;**Add a record**&nbsp;from the dropdown menu.
-3. Fill in the fields and click&nbsp;**Save**. You should see a message saying that your “Submission has been completed successfully.”
+# Add new records by copying multiple existing records
 
-NOTE: If your new record needs to be approved, you won’t see it included in the table until it has been approved by an administrator. In this case, when you click on Save you should see a message confirming that your record has been submitted for approval.
+**You can copy all of the records in a view and select which fields you want to update to create new records.**
+
+1. Select the&nbsp;**Records**&nbsp;tab in the main menu and click on **See records**.
+2. Check the **Current view dropdown list&nbsp;**at the top of the screen to make sure that you have selected the current view that includes the records you want to copy.&nbsp;
+3. Select the&nbsp;**Records**&nbsp;tab in the main menu and click on&nbsp;**Clone all records in view...**&nbsp;from the dropdown menu.
+4. Tick the fields that you want to update and enter any new values for those fields. Any fields that you leave unticked will retain the existing values.&nbsp;
+5. Click&nbsp;**Save**. You should see a message saying that “All records have been updated successfully.”
+
+&nbsp;
