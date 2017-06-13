@@ -4,9 +4,7 @@
 
 **To make it easier to work with the data in your table, you can save filtered views of your records to show only records (rows) that meet specific criteria. If you want to use dates in your filters you need to use the form yyyy-mm-dd.**
 
-To create a filtered view of your data you need to add a new view.
-
-You set up your filters using the&nbsp;**Filters form** on the**&nbsp;Add a view**&nbsp;screen.
+To create a filtered view of your data you need to add a new view. You set up your filters using the&nbsp;**Filters form** on the**&nbsp;Add a view**&nbsp;screen.
 
 By default, the first filter you create will have the AND radio button selected. You do not need to change that unless you want to add another filter criteria (see below).
 
@@ -14,10 +12,8 @@ By default, the first filter you create will have the AND radio button selected.
 2. Use the next two boxes in the row to set the criteria for the filter.
    <br>
    <br>FOR EXAMPLE: If you only wanted to display projects that were in Australia, you might select the *Country*field , then select&nbsp;*equals&nbsp;*from the second box, and then type&nbsp;*Australia&nbsp;*into the final value box.
-
-Besides using a filter to look for an exact term or value, you can apply a number of specialised filters. These include:
-
-EqualWhen you want an exact match for text or a number.
+3. Besides using a filter to look for an exact term or value, you can apply a number of specialised filters. These include:
+4. EqualWhen you want an exact match for text or a number.
 
 Not EqualWhen you want everything except a specific term or number.
 
