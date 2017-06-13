@@ -5,8 +5,8 @@
 To create a personal, shared or an administration view:
 
 1. Select the table for which you want to create a view from the&nbsp;**Table dropdown list**&nbsp;at the top of your screen.
-2. Click **Records**in the main menu and select&nbsp;**See records** from the dropdown menu.
-3. On the Records page, click on the **Manage views**dropdown button and select **Add a view.**
+2. Click **Records&nbsp;**in the main menu and select&nbsp;**See records** from the dropdown menu.
+3. On the Records page, click on the **Manage views&nbsp;**dropdown button and select **Add a view.**
 4. Give your view a name.
 5. Any new view you create is by default a personal view. If you are adding a shared view or an administration view, tick the relevant box. &nbsp;
 6. Tick the boxes next to the fields (columns) that you want to display in your view. To select all, click on the checkbox next to&nbsp;**Field name**.
