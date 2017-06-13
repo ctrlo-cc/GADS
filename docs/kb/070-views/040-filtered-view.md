@@ -11,7 +11,9 @@ You set up your filters using the&nbsp;**Filters form** on the**&nbsp;Add a view
 By default, the first filter you create will have the AND radio button selected. You do not need to change that unless you want to add another filter criteria (see below).
 
 1. Select the field you want the filter to apply to from the dropdown box. (Note that if you change the field you will need to re-enter your search criteria).
-2. Use the next two boxes in the row to set the criteria for the filter. FOR EXAMPLE: If you only wanted to display projects that were in Australia, you might select the Country field , then select equals from the second box, and then type Australia into the final value box.
+2. Use the next two boxes in the row to set the criteria for the filter.
+   <br>
+   <br>FOR EXAMPLE: If you only wanted to display projects that were in Australia, you might select the *Country*field , then select&nbsp;*equals&nbsp;*from the second box, and then type&nbsp;*Australia&nbsp;*into the final value box.
 
 Besides using a filter to look for an exact term or value, you can apply a number of specialised filters. These include:
 
