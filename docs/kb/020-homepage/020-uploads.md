@@ -1,6 +1,6 @@
 
 
-# **Upload documents for users to download from a homepage**
+# **Add documents for users to download from a homepage**
 
 **If you want to include files for users to download on a homepage, you need to upload the file and then use the WYSIWYG editor on the Manage homepage screen to link to that file.&nbsp;**
 
