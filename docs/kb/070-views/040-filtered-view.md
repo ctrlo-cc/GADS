@@ -18,15 +18,10 @@ By default, the first filter you create will have the AND radio button selected.
 | Filter  | |
 | :--- | :---|
 | Not Equal | When you want everything except a specific term or number.|
-
 | Less | When you want to display only the records where the value of this field is less than a specific number, ‘lower’ in the alphabet, or comes before a specific date. |
-
 | Less or Equal |As above, but it also includes records with the value you specify. |
-
 | Greater | When you want to display only the records where the value of this field is greater than a specific number, ‘higher’ in the alphabet or comes after a specific date. |
-
 |Greater or Equal | As above, but it also includes the records with the value you specify.| 
-
 |Begins with | When you want to display only records that begin with a certain word or group of letters. |
 
 You can apply several filters at the same time. To do this you first need to specify whether the next filter is an AND or an OR filter. Use an AND filter if you only want to display records that meet both/all the criteria you set; use an OR filter if you you want to include records that meet either/any of the criteria.
