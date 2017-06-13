@@ -9,7 +9,7 @@
 
 3. On the Records page, check that you have the correct view selected in the **Current view** box.
 
-4. Click on the **Manage views**&nbsp;dropdown button and select **Set up an alert**.
+4. Click on the **Manage views**&nbsp;dropdown button and select **Manage alerts**.
 
 5. In the pop-up box, select whether you want to receive notifications **Instantly**or **Every 24 hours**. If you select **Every 24 hours**, you will receive a daily summary email of all the alerts, normally overnight.
 6. Click the **Create alert&nbsp;**button.
