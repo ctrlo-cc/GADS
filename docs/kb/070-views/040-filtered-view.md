@@ -23,26 +23,19 @@ By default, the first filter you create will have the AND radio button selected.
 | Greater or Equal | As above, but it also includes the records with the value you specify. |
 | Begins with | When you want to display only records that begin with a certain word or group of letters. |
 
-1. You can apply several filters at the same time. To do this you first need to specify whether the next filter is an AND or an OR filter. Use an AND filter if you only want to display records that meet both/all the criteria you set; use an OR filter if you you want to include records that meet either/any of the criteria.
+1. You can apply several filters at the same time. To do this you first need to specify whether the next filter is an AND or an OR filter. Use an AND filter if you only want to display records that meet both/all the criteria you set; use an OR filter if you want to include records that meet either/any of the criteria.
 
-&nbsp; &nbsp;For example, if you wanted to display projects that were in Australia and South Africa, you would use an OR filter, because you want to view all records where the value for Country is either South Africa or Australia. If you wanted to see all projects that were in Australia and were based in Sydney, you would use an AND filter, because you only want to see records where the County field has the value Australia and the City field has the value Sydney.
+&nbsp; &nbsp;For example, if you wanted to display projects that were in Australia and South Africa, you would use an OR filter, because you want to view all records where the value for *Country*is either *South Africa* or *Australia*.
 
-You can group your filters to nest different criteria. For example, if you wanted to see projects in either Australia or Japan where the Partner was ABC Corporation, you would add the filter criteria for the countries as sub-group. To do this you would, for example:
+If you wanted to see all projects that were in Australia and were based in Sydney, you would use an AND filter, because you only want to see records where the *County*field has the value *Australia*and the *City*field has the value *Sydney*.
 
-Set your first filter as Field &gt; Organisation equal ABC Corporation
-
-Leave the filter type as AND and click the Add group button.
-
-Set your first filter in the group to Field&gt;Country equal Japan
-
-Select the radio button next to OR and click Add rule.
-
-Set your second filter in the group as Field&gt;Country equal Australia
-
-To create a view that only displays records where a date field falls within a specific date range you need to set up criteria for the start date and for the end date. For example, if you wanted to display all projects that ended between 1 January and the 28 February 2015 you would:
-
-Set your first filter as Field &gt; End date greater or equal to (i.e. on or after) 2015-01-01
-
-Select the radio button nest to AND and click Add rule
-
-Set your second filter to Field &gt; End date less or equal to (i.e. before or on) 2015-02-28.
+1. You can group your filters to nest different criteria. For example, if you wanted to see projects in either Australia or Japan where the Partner was ABC Corporation, you would add the filter criteria for the countries as sub-group. To do this you would:
+   1. Set your first filter as *Field&gt;Organisation equal ABC Corporation*
+   2. Leave the filter type as AND and click the Add group button.
+   3. Set your first filter in the group to *Field&gt;Country equal Japan*
+   4. Select the radio button next to OR and click Add rule
+   5. Set your second filter in the group as *Field&gt;Country equal Australia*
+2. To create a view that only displays records where a date field falls within a specific date range you need to set up criteria for the start date and for the end date. For example, if you wanted to display all projects that ended between 1 January and the 28 February 2015 you would:
+   1. Set your first filter as *Field&gt;End date greater or equal to* (i.e. on or after) *2015-01-01*
+   2. Select the radio button next to AND and click Add rule
+   3. Set your second filter to *Field&gt;End date less or equal to* (i.e. before or on) *2015-02-28*.
