@@ -4,7 +4,7 @@
 
 **You can hide or display a field on the Add a record or Edit record screens based on the value a user enters in another field. To set the conditions under which a field is displayed you can either type in the exact text or number that the other field needs to match, or you can use a regular expression to define the match.**
 
-| If you want the field to be displayed if | &nbsp; |
+| You want the field to be displayed if | &nbsp; |
 | --- | --- |
 | The value entered in the other field is an exact match | Enter the text you want to match |
 | Any value is entered in the other field | `.+` |
