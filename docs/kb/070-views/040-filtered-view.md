@@ -13,7 +13,7 @@ By default, the first filter you create will have the AND radio button selected.
    <br>FOR EXAMPLE: If you only wanted to display projects that were in Australia, you might select the *Country&nbsp;*field , then select&nbsp;*equals&nbsp;*from the second box, and then type&nbsp;*Australia*into the final value box.
 3. Besides using a filter to look for an exact term or value, you can apply a number of specialised filters. These include: 
 
-  | Filter | &nbsp; |
+| Filter | &nbsp; |
 | --- | --- |
 | Equal | When you want an exact match for text or a number. |
 | Not Equal | When you want everything except a specific term or number. |
@@ -22,6 +22,7 @@ By default, the first filter you create will have the AND radio button selected.
 | Greater | When you want to display only the records where the value of this field is greater than a specific number, ‘higher’ in the alphabet or comes after a specific date. |
 | Greater or Equal | As above, but it also includes the records with the value you specify. |
 | Begins with | When you want to display only records that begin with a certain word or group of letters. |
+
 1. You can apply several filters at the same time. To do this you first need to specify whether the next filter is an AND or an OR filter. Use an AND filter if you only want to display records that meet both/all the criteria you set; use an OR filter if you want to include records that meet either/any of the criteria.
 
   For example, if you wanted to display projects that were in Australia and South Africa, you would use an OR filter, because you want to view all records where the value for *Country*is either *South Africa* or *Australia*.
