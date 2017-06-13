@@ -12,10 +12,11 @@ By default, the first filter you create will have the AND radio button selected.
 2. Use the next two boxes in the row to set the criteria for the filter.
    <br>FOR EXAMPLE: If you only wanted to display projects that were in Australia, you might select the *Country&nbsp;*field , then select&nbsp;*equals&nbsp;*from the second box, and then type&nbsp;*Australia&nbsp;*into the final value box.
 3. Besides using a filter to look for an exact term or value, you can apply a number of specialised filters. These include:
-4. EqualWhen you want an exact match for text or a number.
+4.
 
 | Filter | &nbsp; |
 | --- | --- |
+| Equal | When you want an exact match for text or a number. |
 | Not Equal | When you want everything except a specific term or number. |
 | Less | When you want to display only the records where the value of this field is less than a specific number, ‘lower’ in the alphabet, or comes before a specific date. |
 | Less or Equal | As above, but it also includes records with the value you specify. |
