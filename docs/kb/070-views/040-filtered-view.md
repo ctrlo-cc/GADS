@@ -15,14 +15,14 @@ By default, the first filter you create will have the AND radio button selected.
 3. Besides using a filter to look for an exact term or value, you can apply a number of specialised filters. These include:
 4. EqualWhen you want an exact match for text or a number.
 
-| --- | ---|
+| :--- | :---|
 | Not Equal | When you want everything except a specific term or number.|
 
 | Less | When you want to display only the records where the value of this field is less than a specific number, ‘lower’ in the alphabet, or comes before a specific date. |
 
-|Less or Equal |As above, but it also includes records with the value you specify. |
+| Less or Equal |As above, but it also includes records with the value you specify. |
 
-|Greater | When you want to display only the records where the value of this field is greater than a specific number, ‘higher’ in the alphabet or comes after a specific date. |
+| Greater | When you want to display only the records where the value of this field is greater than a specific number, ‘higher’ in the alphabet or comes after a specific date. |
 
 |Greater or Equal | As above, but it also includes the records with the value you specify.| 
 
