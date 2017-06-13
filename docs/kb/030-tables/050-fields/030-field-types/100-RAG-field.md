@@ -1,6 +1,8 @@
 
 
-**RAG status field You can use a RedAmberGreen (RAG) status field to automatically generate colour-coded indicators based on the values of other fields in a record.**
+# **RAG status field**
+
+**You can use a RedAmberGreen (RAG) status field to automatically generate colour-coded indicators based on the values of other fields in a record.**
 
 The conditions for the red, amber and green indicators will always be checked in that order. If a record meets more than one of the conditions, it will show the red over the amber or the green.
 
