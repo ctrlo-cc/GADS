@@ -12,6 +12,7 @@ By default, the first filter you create will have the AND radio button selected.
 2. Use the next two boxes in the row to set the criteria for the filter.
    <br>FOR EXAMPLE: If you only wanted to display projects that were in Australia, you might select the *Country&nbsp;*field , then select&nbsp;*equals&nbsp;*from the second box, and then type&nbsp;*Australia*into the final value box.
 3. Besides using a filter to look for an exact term or value, you can apply a number of specialised filters. These include: 
+
   | Filter | &nbsp; |
 | --- | --- |
 | Equal | When you want an exact match for text or a number. |
