@@ -2,7 +2,7 @@
 
 # Tree field
 
-**A tree field is a useful way to structure the field values that you want users to choose from into categories and sub-categories. &nbsp;Setting those options up as a data tree makes it easier for people to find the option they are looking for and it eliminates spelling errors.**
+**A tree field is a useful way to structure the field values that you want users to choose from into categories and sub-categories. &nbsp;Setting those options up as a data tree makes it easier for people to find the option they are looking for, and it eliminates spelling errors.**
 
 ## Set up a tree field
 
