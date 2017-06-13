@@ -27,6 +27,7 @@ By default, the first filter you create will have the AND radio button selected.
 
  For example, if you wanted to display projects that were in Australia and South Africa, you would use an OR filter, because you want to view all records where the value for *Country*is either *South Africa* or *Australia*.
  If you wanted to see all projects that were in Australia and were based in Sydney, you would use an AND filter, because you only want to see records where the *County*field has the value *Australia*and the *City*field has the value *Sydney*.
+ 
 1. You can group your filters to nest different criteria. For example, if you wanted to see projects in either Australia or Japan where the Partner was ABC Corporation, you would add the filter criteria for the countries as sub-group. To do this you would:
    1. Set your first filter as *Field&gt;Organisation equal ABC Corporation*
    2. Leave the filter type as AND and click the Add group button.
