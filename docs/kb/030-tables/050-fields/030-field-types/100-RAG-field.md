@@ -1,6 +1,6 @@
 
 
-# **RAG status field**
+# RAG status field
 
 **You can use a RedAmberGreen (RAG) status field to automatically generate colour-coded indicators based on the values of other fields in a record.**
 
