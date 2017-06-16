@@ -8,8 +8,8 @@
 | :--- | --- |
 | The value entered in the other field is an exact match | Enter the text you want to match |
 | Any value is entered in the other field | `.+` |
-| The value entered in the other field contains the word "project" | `\\*project.\\*` |
-| The value entered in the other field starts with the letters "BTN" | `BTN.\\*` |
+| The value entered in the other field contains the word "project" | `*project.*` |
+| The value entered in the other field starts with the letters "BTN" | `BTN.*` |
 | If one of three values i.e. 1,2 0r 3 is entered in the other field | `(1|2|3)` |
 | If the value entered in the other field is greater than 300 but less than 1000 | `[3-9][0-9][0-9]` |
 | If a specific node in a tree is selected\* | `(.\\*#)?Node name` |
