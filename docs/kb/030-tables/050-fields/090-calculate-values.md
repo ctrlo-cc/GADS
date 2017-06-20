@@ -8,7 +8,7 @@
 
 Here is an example of a calculation that evaluates fields with the short names 'country' and 'region'. It returns the value 'Europe' or 'Japan' depending on the values of those fields:&nbsp;&nbsp;
 
-`**function evaluate (country, region)
+``function evaluate (country, region)
 
 &nbsp; &nbsp; if country == "Greece" and region == "A" then
 
@@ -20,4 +20,4 @@ Here is an example of a calculation that evaluates fields with the short names '
 
 &nbsp; &nbsp; end
 
-end`**
+end``
