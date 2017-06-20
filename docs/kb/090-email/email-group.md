@@ -2,7 +2,7 @@
 
 # Email a group of users
 
-**Linkspace makes it easy to message a group of users that appear in a [person field](../../../../030-tables/050-fields/030-field-types/090-person-field.md). Click on the envelope icon at the top of any person field column to send a message to every user who appears in that column in the current view. Because the email will go only to people who are included in the current view, you can&nbsp;[filter your records](../../../../070-views/040-filtered-view.md) to email only those that meet certain criteria.&nbsp;**
+**Linkspace makes it easy to message a group of users that appear in a [person field](../030-tables/050-fields/030-field-types/090-person-field.md). Click on the envelope icon at the top of any person field column to send a message to every user who appears in that column in the current view. Because the email will go only to people who are included in the current view, you can&nbsp;[filter your records](../../../../070-views/040-filtered-view.md) to email only those that meet certain criteria.&nbsp;**
 
 For example, if your table has a person field called *Project leaders*, you can email all the project leaders by clicking on the **envelope icon** at the top of the *Project leaders* column in the table view format.
 
