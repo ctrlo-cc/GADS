@@ -31,7 +31,6 @@ The return values for the calculation in an RAG status field should be "red", "a
 For example, if you wanted to use a RAG status field to flag appraisals that were due and overdue.
 
 ```lua
-
 function evaluate (nxtappr)
 
 if nxtappr == nil
@@ -62,7 +61,8 @@ return "green"
 
 end
 
-end ```
+end 
+```
 
 In order for a calculated value to behave as expected (such as sorting and searching correctly), it's important that Linkspace knows what value it is returning. The type of value can specified using the "Return value conversion" option. In the case of a date, the value returned from the calculated function should be epoch time, which will then be converted to a full date by Linkspace.
 
