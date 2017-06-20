@@ -1,2 +1,5 @@
-Field short names
-The short name is used to refer to fields within calculated and RAG fields. Although optional, it must be specified if this field is to be used within a calculated or RAG field. The short name must be unique, must start with a letter, and is only allowedcontain letters, numbers and underscores.
+
+
+# Giving your field a short name
+
+You can give any field a short name, which you can use to reference it within calculations for [calculated fields](/030-field-types/110-calculated-field.md) or [RAG fields](/030-field-types/100-RAG-field.md). The short name must be unique, must start with a letter, and can only contain letters, numbers and underscores.
