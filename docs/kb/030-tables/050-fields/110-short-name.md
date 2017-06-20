@@ -1,0 +1,2 @@
+Field short names
+The short name is used to refer to fields within calculated and RAG fields. Although optional, it must be specified if this field is to be used within a calculated or RAG field. The short name must be unique, must start with a letter, and is only allowedcontain letters, numbers and underscores.
