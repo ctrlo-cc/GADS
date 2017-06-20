@@ -35,35 +35,24 @@ For example, if you wanted to use a RAG status field to flag appraisals that wer
 {: .present-before-paste}
 
 ```lua
-function evaluate (nextappr)
 
-   if nextappr == nil
-
-   then return "red"
-
-   end
-
-   nextapptable = os.date("\\*t", nextappr.epoch) –-convert next appr to a lua table
-
-   if nxapptable.year &gt; os.date("\\*t").year &nbsp; – if next appr is next year - must be green
-
-then return "green"
-
-elseif nxapptable.month == os.date("\\*t").month – if next appr is current month = amber
-
-then return "amber"
-
-elseif nxapptable.month &lt; os.date("\\*t").month – if next appr month past - then red
-
+function evaluate (s_date)
+if s_date == nil -- this should not happen
 then return "red"
+end
+s_datet = os.date("*t", s_date.epoch) -- make date table
 
-else
-
-return "green"
-
+if s_datet.month == os.date("*t").month -- super done this month
+then return "green"
+elseif s_datet.month == os.date("*t").month-1 -- due this month
+then return "amber"
+elseif s_datet.month > os.date("*t").month-2 -- overdue
+then return "red"
+else -- something very wrong
+return "red"
+end
 end
 
-end
 ```
 
 In order for a calculated value to behave as expected (such as sorting and searching correctly), it's important that Linkspace knows what value it is returning. The type of value can specified using the "Return value conversion" option. In the case of a date, the value returned from the calculated function should be epoch time, which will then be converted to a full date by Linkspace.
