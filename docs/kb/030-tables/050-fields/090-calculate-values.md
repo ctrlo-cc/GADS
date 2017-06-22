@@ -47,12 +47,12 @@ For example, if you wanted to use a RAG status field to flag reports that were d
 ```lua
 
 function evaluate (report_date)
-report_datetable = os.date("\*t", report_date.epoch) -- make date table
-if report_datetable.month == os.date("\*t").month -- super done this month
+report_datetable = os.date("\\*t", report_date.epoch) -- make date table
+if report_datetable.month == os.date("\\*t").month -- super done this month
 then return "green"
-elseif report_datetable.month == os.date("\*t").month-1 -- due this month
+elseif report_datetable.month == os.date("\\*t").month-1 -- due this month
 then return "amber"
-elseif s_datet.month > os.date("\*t").month-2 -- overdue
+elseif s_datet.month > os.date("\\*t").month-2 -- overdue
 then return "red"
 else -- something very wrong
 return "red"
