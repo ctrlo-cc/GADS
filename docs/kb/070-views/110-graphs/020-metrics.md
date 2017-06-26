@@ -8,23 +8,23 @@ To create a graph with metrics, you need to first create a metric set, then add 
 
 ## Create a metric set
 
-Select the table for which you want to create a graph from the&nbsp;**Table dropdown** list at the top of your screen.
+1. Select the table for which you want to create a graph from the&nbsp;**Table dropdown** list at the top of your screen.
+2. Navigate to the records screen by clicking on **Records** in the main menu and selecting **See records**&nbsp;from the dropdown menu.&nbsp;
+3. Click on the&nbsp;**Manage views**&nbsp;dropdown button and select&nbsp;**Manage metrics**.
+4. Click the&nbsp;**Create new metric set&nbsp;**button.
+5. Give your metric set a name. Click **Create**.
 
-Navigate to the records screen by clicking on **Records** in the main menu and selecting **See records**&nbsp;from the dropdown menu.&nbsp;
+## Add metrics to your metric set
 
-Click on the&nbsp;**Manage views**&nbsp;dropdown button and select&nbsp;**Manage graphs**.
-Click the&nbsp;**Create new graph** button.
-Provide a title and a description of your graph.
+Once you have created your metric set you will be returned to the **Manage metrics** screen.&nbsp;
 
-## Add target metrics to your metric set
+1. Click **Edit**next to the name of the metric set.&nbsp;
+2. Click **Add target metric**
+3. Each target metric must have an **X-axis field value** and a **target metric**. The target metric will be compared to the count or sum of the Y-axis field you select for your graph. If you group the Y-axis values in your graph, then in the **Y-axis grouping value** box, you need to specify the value for Y-axis grouping field that your metric applies to.&nbsp;
+   <br>
+   <br>**Example:** You need to have a minimum of 150 students achieve a grade A, 200 achieve a grade B, and 300 achieve a grade C. You create a graph where the X-axis is the *Grade&nbsp;*field. Next you create a set of grade metrics. To the set you add a target metric for each grade. The first target metric has the X-axis value A and the target metric 150; the second metric has the X-axis value B and the target value 200; the third metric has X-axis value C and a target metric of 300. &nbsp;If the total number of A, B and C grades is 100, 200 and 150 respectively, then on your graph you would see A grades as 75%, B grades as 100%, and C grades as 50%.&nbsp;
 
-For each value on your graph's x-axis you can set a target metric. For example, if you need to have a minimum of 150 students achieve a grade A, 200 achieve a grade B, and 300 achieve a grade C you could create a set of metrics for the *Grade*field. The target metrics in that metric set would be 150 where the record value is *A,*200 where the value is B, and 300 where the value is C. If the total number of A, B and C grades is 100, 200 and 150 respectively, then on your graph you would see A grades as 75%, B grades as 100%, and C grades as 50% of the respective targets.&nbsp;
-
-Each metric must have an x-axis value and a target y-axis value. Once a set of metrics is applied to a graph, each point in that graph will be converted to a percentage as compared to the relevant metric.
-
-For graphs that use a y-axis grouping, it is also necessary to define which y-axis grouping is to be used for each x-axis data point.
-
-X-axis value
+Once a set of metrics is applied to a graph, each point in that graph will be converted to a percentage as compared to the relevant metric.
 
 This is the value of the x-axis to apply this metric to. Note that if using a date for the x-axis, then this value must be entered as unixtime, having grouped as applicable. For example, if grouping by month, then May 2015 would be entered as 1430438400. Use an online unixtime convertor to calculate the required values.
 
