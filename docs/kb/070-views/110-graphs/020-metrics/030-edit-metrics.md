@@ -2,7 +2,12 @@
 
 Once you have created your metric set you will be returned to the **Manage metrics** screen.&nbsp;
 
-1. Click **Edit&nbsp;**next to the name of the metric set.&nbsp;
+1. 1. Select the table for which you want to create a graph with metrics from the&nbsp;**Table dropdown** list at the top of your screen.
+2. Navigate to the records screen by clicking on **Records**in the main menu and selecting S**ee records**&nbsp;from the dropdown menu.&nbsp;
+3. Click on the&nbsp;**Manage views**&nbsp;dropdown button and select&nbsp;**Manage metrics**.
+4. Click the&nbsp;**Create new metric set**&nbsp;button.
+5. Give your metric set a name. Click **Create**.
+2. Click **Edit&nbsp;**next to the name of the metric set.&nbsp;
 2. Click **Add target metric**
 3. Each target metric must have an **X-axis field value** and a **target metric**. The count ??<u>or the sum of??</u> the X-axis field values will be compared to your target metric and displayed on your graph as a relative percentage. &nbsp;
 4. If your **X-axis field is a date field**, &nbsp;then the X-axis field value must be entered as a unix timestamp that reflects the X-axis grouping. For example, if grouping by month, then May 2015 would be 1 May 2015 12:00AM, which would be entered into your X-axis value box as 1430438400. (You can calculate the values using a unix timestamp converter.)&nbsp;
