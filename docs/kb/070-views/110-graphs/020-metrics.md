@@ -2,7 +2,7 @@
 
 # Create a graph with metrics
 
-**You can use metrics to create graphs **to monitor goals or progess against key performance indicators (KPIs). Metrics enable you to&nbsp;**compare the total counts or sum of the values on a graph to a set of predefined target values.&nbsp;**
+**You can use metrics to create graphs **to monitor goals or progress against key performance indicators (KPIs). Metrics enable you to&nbsp;**compare the total counts or sum of the values on a graph to a set of predefined target values.&nbsp;**
 
 To create a graph with metrics, you need to:
 
@@ -10,13 +10,7 @@ To create a graph with metrics, you need to:
 2. Add a series of target metrics to that set.
 3. Apply that metric set to a graph.&nbsp;
 
-## Create a metric set
-
-1. Select the table for which you want to create a graph from the&nbsp;**Table dropdown** list at the top of your screen.
-2. Navigate to the records screen by clicking on **Records** in the main menu and selecting **See records**&nbsp;from the dropdown menu.&nbsp;
-3. Click on the&nbsp;**Manage views**&nbsp;dropdown button and select&nbsp;**Manage metrics**.
-4. Click the&nbsp;**Create new metric set&nbsp;**button.
-5. Give your metric set a name. Click **Create**.
+## &nbsp;
 
 ## Add metrics to your metric set
 
@@ -30,4 +24,4 @@ Once you have created your metric set you will be returned to the **Manage metri
    <br>
    <br>**Example:** You need to have a minimum of 150 students achieve a grade A, 200 achieve a grade B, and 300 achieve a grade C. You create a graph where the X-axis is the *Grade&nbsp;*field. Next you create a set of grade metrics. To the set you add a target metric for each grade. The first target metric has the X-axis value A and the target metric 150; the second metric has the X-axis value B and the target value 200; the third metric has X-axis value C and a target metric of 300. &nbsp;If the total number of A, B and C grades is 100, 200 and 150 respectively, then on your graph you would see A grades as 75%, B grades as 100%, and C grades as 50%.&nbsp;
    <br>
-   <br>If you needed a certain number of those grades to come from a specific category of students then you could use the Group by function. In your graph you could choose to group by a&nbsp;*Student type* for example. You would then have to define a metric for each *Grade*(X-axis field)*&nbsp;*value and each *Student type*(Group by field) you wanted to monitor. So, if you had two types of student - *Full-time* and part-time you would need to add target metrics for each of these: the first target metric has the X-axis value *A, the Group by field value of Part-time*&nbsp;and the target metric 75; the second metric has the X-axis value A *he Group by field value of Part-time*&nbsp;and the target metric 100, etc
+   <br>If you needed a certain number of those grades to come from a specific category of students then you could use the Group by function. In your graph you could choose to group by a&nbsp;*Student type* for example. You would then have to define a metric for each *Grade*(X-axis field)*&nbsp;*value and each *Student type*(Group by field) you wanted to monitor. So, if you had two types of student - *Full-time* and *Part-time* you would need to add target metrics for each of these: the first target metric has the X-axis value *A,*the Group by field value of *Part-time*&nbsp;and the target metric *75*; the second metric has the X-axis value A the Group by field value of *Full-time*&nbsp;and the target metric 100, etc
