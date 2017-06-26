@@ -2,11 +2,13 @@
 
 # Create a graph with metrics
 
-**You can use metrics to convert all the values shown on a graph into percentages of a set of predefined target values. These can be used to monitor key performance indicators (KPIs).&nbsp;**
+**You can use metrics to convert all the values shown on a graph into percentages of a set of predefined target values. These can be used to monitor goals or key performance indicators (KPIs).&nbsp;**
 
-**For each value on your graph you can set a target. For example, if you need to have a minimum of 150 students achieve a grade A, you could set a metric of 150 for the Grade field**
+For each value on your graph you can set a target. For example, if you need to have a minimum of 150 students achieve a grade A, 200 achieve a grade B, and 300 achieve a grade C you could create a set of metrics for the *Grade*field. The metrics in that metric set would be 150 where the record value is *A,*200 where the value is B, and 300 where the value is C. If the total number of A, B and C grades is 100, 200 and 150 respectively, then on your graph you would see A grades as 75%, B grades as 100%, and C grades as 50% of the respective targets.&nbsp;
 
-To create a graph with metrics, you need to create a metric set, and set th
+To create a graph with metrics, you need to first create a metric set, then add a series of metrics to that set. Once you've done that you can create a new graph where you use your metric set.&nbsp;
+
+## Create a metric set
 
 For example, if you were graph might have y-axis values of 20, 40 and 50. These could be plotted against metrics of 40, 40 and 200 (which might be targets). In this case, the graph values would be converted to 50%, 100% and 25%.
 
