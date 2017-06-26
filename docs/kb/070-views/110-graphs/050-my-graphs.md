@@ -1,9 +1,15 @@
+
+
 # Choose which graphs you see
 
-Only a table administrator can configure new graphs, but any user can choose which of the configured graphs they want to see when they click on the graphs icon. 
+Only a table administrator can configure new graphs, but any user can choose which of the configured graphs they want to see when they click on the graphs icon.
 
-To select the graphs you want to include in your graphs view:
+To select the graphs you want to include in your graphs view for any table:
 
-2. Navigate to the records screen by clicking on **Records** in the main menu and selecting **See records**&nbsp;from the dropdown menu.&nbsp;
+1. Navigate to the records screen by clicking on **Records** in the main menu and selecting **See records**&nbsp;from the dropdown menu.&nbsp;
 
-3. Click on the&nbsp;**Manage views**&nbsp;dropdown button and select&nbsp;**My graphs**.
+2. Click on the&nbsp;**Manage views**&nbsp;dropdown button and select&nbsp;**My graphs**.
+
+3. Tick the graphs you want to be able to see. (If there are none listed then none have been configured for that table.)
+
+4. Click **Save**.
