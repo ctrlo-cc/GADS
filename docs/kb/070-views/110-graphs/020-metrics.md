@@ -8,7 +8,13 @@ To create a graph with metrics, you need to first create a metric set, then add 
 
 ## Create a metric set
 
-&nbsp;
+Select the table for which you want to create a graph from the&nbsp;**Table dropdown** list at the top of your screen.
+
+Navigate to the records screen by clicking on **Records** in the main menu and selecting **See records**&nbsp;from the dropdown menu.&nbsp;
+
+Click on the&nbsp;**Manage views**&nbsp;dropdown button and select&nbsp;**Manage graphs**.
+Click the&nbsp;**Create new graph** button.
+Provide a title and a description of your graph.
 
 ## Add target metrics to your metric set
 
