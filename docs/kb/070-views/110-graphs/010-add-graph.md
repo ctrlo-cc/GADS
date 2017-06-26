@@ -1,6 +1,6 @@
 
 
-# Set up a graph
+# Create a graph
 
 Only administrators can set up graphs. Other users can control the data that is included in their graphs by creating personalised views of the data they want to see.&nbsp;
 
