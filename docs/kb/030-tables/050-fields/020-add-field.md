@@ -11,7 +11,7 @@ To add a new field:
 3. Select the&nbsp;**Type of field** from the drop-down list and complete the options for that field type. [More about field types](030-field-types/010-field-types.md)
 4. Fill out the **Description** field to clarify what this field refers to. The description is only visible to other table administrators.&nbsp;
 5. If you want to, you can give your field a&nbsp;**Short name**. You can use this when referencing the field in a calculation. More about short names
-6. LINK TO A FIELD IN ANOTHER TABLE - CAN'T GET THIS TO WORK
+6. You can opt to&nbsp;**synchronise this field with a field of the same type in another table**. This synchonisation of fields will only be activated when you <u>add a synchronised record</u> to the table.&nbsp;
 7. You can also add **Help text for the user**. This will be displayed in a pop-up box when a user clicks on the question mark (?) next to the field name. Use it to provide guidelines or answer any common questions a user might have about that values they must enter.
 8. Tick the box if you want the **field to be optional**. By default any field you create is mandatory. (Mandatory fields will all be displayed in bold),
 9. Tick the box if you want Linkspace to **remember and display the last value** that was typed in for that field when a new record is added.
