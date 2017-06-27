@@ -8,15 +8,15 @@ When you add a synchronised record, the values for the synchronised fields will 
 
 To add a synchronised record:
 
-1. Click on&nbsp;**Records&nbsp;**in the main menu and select&nbsp;**See records**&nbsp;from the dropdown menu.
+1. Find the record that you want to synchronise your new record with and note down the **record ID**.&nbsp;
 
-2. Find the record you want to copy by using the search box.
-3. Click&nbsp;**Edit**next to**&nbsp;**the record you want to copy.
-4. On the **Edit record**screen, click the&nbsp;**Action&nbsp;**menu and select&nbsp;**Copy record**&nbsp;from the dropdown.
-5. A pop-up screen will ask you if you want to leave this page. Click the&nbsp;**Leave&nbsp;**button.
-6. You will be taken to a new screen with the heading&nbsp;*New record copied from record ID [X].*
-7. Change any fields you need to change and click&nbsp;**Save**. You should see a message saying that your “Submission has been completed successfully.”
+2. Select the table that you want to add a new synchronised record to from the table dropdown list. &nbsp;
 
-The synchronisation of fields in a synchronised record only works in one direction: no changes that you make in a synchronised record&nbsp;
+3. Click on **Records&nbsp;**in the main menu and select&nbsp;**Add a synchronised record**&nbsp;from the dropdown menu. (You will only see this menu option if the table has synchronised fields set up.)
 
-The synchronised fields in the &nbsp;that contains the synchronised records&nbsp;
+4. Enter the record ID of the record you want to synchronise your new record with.
+5. Click **Save**.
+
+The synchronisation of fields in a synchronised record only works in one direction: no changes that you make in a synchronised record will be passed to the parent table.&nbsp;
+
+&nbsp;
