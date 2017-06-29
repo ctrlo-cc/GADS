@@ -11,5 +11,5 @@ For every field, you need to specify the permissions that a group has for that f
 You can create as many user groups as you like, and users can belong to multiple groups. You add and remove users from groups in the individual user records.&nbsp;
 {: .present-before-paste}
 
-You can see an overview of a group’s permissions across all fields by going to Users &gt; Groups
+You can see an overview of a group’s permissions across all fields by going to Users &gt; Groups 
 {: .present-before-paste}
