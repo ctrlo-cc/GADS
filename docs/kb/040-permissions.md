@@ -8,7 +8,7 @@ Linkspace enables very fine control over exactly what data users can add, delete
 
 You control what fields users can view, edit and approve changes on via their membership of user groups. You can create as many user groups as you like, and users can belong to multiple groups. You add and remove users from groups in their user records.
 
-See: [Assign users to groups](050-users/030-assign-users.md) and Set the permissions for a field
+*See:* [Assign users to groups](050-users/030-assign-users.md) and [Set the permissions for a field](030-tables/050-fields/050-field-permissions.md)
 
 ## 2. System permissions
 
