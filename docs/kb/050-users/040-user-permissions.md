@@ -14,7 +14,7 @@ As well as using groups and field permissions, you can also control which tables
 
 *See:* [Add a new user to Linkspace](020-add-users/010-add-user.md)
 
-## Setting a users general permissions
+## Setting a user's general permissions
 
 Administrative permissions, and permissions that apply across tables are also set on a user's record page. These are:
 
