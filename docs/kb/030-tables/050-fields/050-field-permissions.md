@@ -7,12 +7,11 @@
 * **Access controls - permissions to *read*, *write*and *edit*values in the field and**
 * **Approval controls - these govern whose edits need approval and who can approve them. (Setting up approval controls is optional; by default, any user with *edit*or *write*permissions does not need their changes approved.)&nbsp;**
 
-## &nbsp;To set access controls
+## To set access controls
 
 If you have just created a new field you will have been returned to the **Edit field** screen for the field you have just created.
 
 1. Scroll down to **Permissions** at the very the bottom of the **Edit field** screen.
-
 2. Click on the **Access Control…** button.
 3. In the pop-up box, select the group you want to give access to from the drop-down list on the left.
 4. Tick the permissions you want to give that group.
