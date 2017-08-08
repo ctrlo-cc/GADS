@@ -17,4 +17,4 @@ To add a new field:
 9. Tick the box if you want Linkspace to **remember and display the last value** that was typed in for that field when a new record is added.
 10. Tick the box if you want all **values for the field to be unique**.
 11. If you want to, you can set the conditions under which you want the field to be displayed. This enables you to display fields based on values a user enters for another field.&nbsp;[More about controlling when a field is displayed](040-field-display.md)
-12. Click&nbsp;**Save**. You should see an on-screen notification that your field has been created and you need to set permission for this field. Until you set permissions for the record it will not be displayed in the table.
+12. Click&nbsp;**Save**. You should see an on-screen notification that your field has been created and you need to set permission for this field. Until you set permissions for the field it will not be displayed in the table.
