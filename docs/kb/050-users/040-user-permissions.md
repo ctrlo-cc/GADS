@@ -30,4 +30,4 @@ Administrative permissions, and permissions that apply across tables are also se
 * manage other user accounts
 * send messages
 
-*See:* [Add a new user to Linkspace](../../../../050-users/020-add-users/010-add-user.md)
+*See:* [Add a new user to Linkspace](020-add-users/010-add-user.md)
