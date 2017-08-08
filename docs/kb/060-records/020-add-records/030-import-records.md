@@ -6,7 +6,7 @@
 
 **NOTE: All dates in your CSV file should be in the format YYYY-MM-DD.&nbsp;**
 
-## Testing your CSV file
+## Testing and importing your records
 
 It's best to test the file you wish to import by first doing a dry run. If there are any general errors, or errors for individual records, you can then see what these are and correct them before uploading the records. To test your CSV file:
 
@@ -22,7 +22,7 @@ It's best to test the file you wish to import by first doing a dry run. If there
 10. You will be returned to the **Import status&nbsp;**screen where you will see the status of your import.
 11. To check the data that has been imported and what, if any, errors there are, click on **View all rows**. Use the **Back button** on your browser to retrun to the previous screen.
 
-Once you are satified that your import file is correctly formatted, import the records to the table.
+Once you are satisfied that your import file is correctly formatted, import the records to the table.
 
 1. Click on the **Import data…** button.
 2. Under **Options**, untick the **Dry run** box.
