@@ -13,4 +13,4 @@ When you [add a new field](../020-add-field.md), to set it as a calculated value
 3. In the **Calculation&nbsp;**box, use the [Lua programming language](../130-lua.md) for your calculation.&nbsp;
 4. If you want changes in your calculated field to trigger any [alerts](../../../070-views/090-alerts/010-set-up-alert.md) you set up, untick the checkbox for **Alerts**.
 5. &nbsp;Decide when you want the field to update itself. You can either choose for the calculated value to change as soon as any changes are made to fields that are included in the calculation (**Update all existing values immediately**), or for the field to update overnight (**Do not immediately update all existing value**).&nbsp;
-6. Complete the rest of the fields and click the **Save&nbsp;**button.&nbsp;
+6. Complete the rest of the fields and click the **Save** button.&nbsp;
