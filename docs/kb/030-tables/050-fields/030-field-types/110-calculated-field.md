@@ -6,7 +6,7 @@
 
 ## To set up a calculated field
 
-When you add a new field, to set it as a calculated value field you need to:
+When you [add a new field](../020-add-field.md), to set it as a calculated value field you need to:
 
 1. Select&nbsp;**Calculated value** as your field **Type**. You will then see your calculated field options.
 2. In the **Return value conversion&nbsp;**dropdown box, select whether the final value will be a string (i.e text and/or numbers), a date, an integer or a decimal number.
