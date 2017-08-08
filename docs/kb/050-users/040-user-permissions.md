@@ -6,7 +6,7 @@
 
 You control what fields users can view, add to and edit by adding them to groups. On each field you can then set permissions for each group.
 
-*See*:[ Set permissions on a field](030-tables/050-fields/050-field-permissions.md)
+*See*:[ Set permissions on a field](/../030-tables/050-fields/050-field-permissions.md)
 
 ## Controlling the tables users can see
 
