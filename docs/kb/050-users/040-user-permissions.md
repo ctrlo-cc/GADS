@@ -12,7 +12,7 @@ You control what fields users can view, add to and edit by adding them to groups
 
 As well as using groups and field permissions, you can also control which tables users can see. You set this on their user record page by selecting the tables that the user should be able to see from the dropdown list.
 
-*See:* [Add a new user to Linkspace](../020-add-users/010-add-user.md)
+*See:* [Add a new user to Linkspace](/020-add-users/010-add-user.md)
 
 ## Setting a users general permissions
 
