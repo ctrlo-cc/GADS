@@ -2,7 +2,7 @@
 
 # Calculated value field
 
-**A calculated field automatically generates values based on the values of other fields. The values you generate and the values you use in your calculations can be numbers, but they don't have to be. &nbsp;****You use the &nbsp;Lua programming language to return the value of the calculated field. For more information see:&nbsp;[Using Lua in Linkspace](../130-lua.md)&nbsp;**
+**A calculated field automatically generates values based on the values of other fields. The values you generate and the values you use in your calculations can be numbers, but they don't have to be. You use the &nbsp;Lua programming language to return the value of the calculated field. For more information see:&nbsp;[Using Lua in Linkspace](../130-lua.md)&nbsp;**
 
 ## To set up a calculated field
 
