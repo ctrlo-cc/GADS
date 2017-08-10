@@ -23,12 +23,13 @@ end
 end
 ```
 
-You reference the fields you want to evaluate using their short name inside round brackets (in this case *country*), and you include the field values in inverted commas.
+You reference any&nbsp;**field&nbsp;**you want to evaluate using its short name inside round brackets (in this case *country*), and you include the **field values** in inverted commas.
 
-In Lua the relational operators are: 
-•	Equal to ==
-•	Not equal to ~= 
-•	Less than < 
-•	Greater than > 
-•	Less than or equal to <= 
-•	Greater than or equal to >= 
+In Lua the relational operators are:
+
+* Equal to ==
+* Not equal to ~=
+* Less than &lt;
+* Greater than &gt;
+* Less than or equal to &lt;=
+* Greater than or equal to &gt;=
