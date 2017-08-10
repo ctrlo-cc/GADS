@@ -4,7 +4,12 @@
 
 Values in Linkspace date fields are passed as Lua table values with the indexes *year*, *month*, *day*and *epoch*. You can reference the operating system date and time by using ``` os.time```.
 
-Where you are evaluating dates, the value returned by your calculation should be in [epoch time](https://www.epochconverter.com/), which will then be converted to a full date by Linkspace.
+Where you are evaluating dates, the value returned by your calculation should be in [UNIX epoch time](https://www.epochconverter.com/), which will then be converted to a full date by Linkspace. In epoch time, you use seconds to express time, so: 
+1 hour =	3600 
+1 day =	86400 
+1 week =	604800 
+1 month (30.44 days) =	2629743 
+1 year = (365.24 days) 
 
 ### Example of a calculation for a RAG field that uses dates
 
