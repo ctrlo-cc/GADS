@@ -2,7 +2,7 @@
 
 # Working with dates in your Lua calculations
 
-**Values in Linkspace date fields are passed as Lua table values with the indexes *year*, *month*, *day&nbsp;*and *epoch*. You can reference the operating system date and time by using `os.time`.**
+**Values in Linkspace date fields are passed as Lua table values with the indexes *year*, *month*, *day&nbsp;*and *epoch*. You can reference current date and time by referencing the operating system date and time by using `os.time`.**
 
 Where you are evaluating dates, the value returned by your calculation should be in [UNIX epoch time](https://www.epochconverter.com/), which will then be converted to a full date by Linkspace. In epoch time, you use seconds to express time, so:
 
