@@ -1,8 +1,10 @@
 
 
-# Example of a calculation for a RAG field that uses dates
+# Calculations for RAG status fields&nbsp;
 
 **The return values for the calculation in a RAG status field should always be “red”, “amber” or “green”. You can also return nothing, which will be interpreted as grey. Any other values, or code causing errors, will display purple.**
+
+## Example 1
 
 For example, you could use a RAG status field to keep track of reviews. Completed reviews would be “green”, those scheduled within the next 30 days would be “amber” and those with no scheduled date would be “red”.
 
