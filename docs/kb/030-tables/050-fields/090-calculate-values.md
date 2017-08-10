@@ -5,3 +5,20 @@
 **Calculated value fields and RAG status fields automatically generate values based on the values of other fields in a table. For both these field types, you define your calculation using a sub-set of the [Lua programming language](https://www.lua.org/pil/contents.html).**
 
 **A calculation consists of a Lua `evaluate` function with its parameters being the values required from other fields.**
+
+For example if you wanted to create an automatically generated continent field that depended on the value in the country field, you might use the following calculation for the continent field:
+function evaluate (country)
+
+	if country == "Greece" then
+
+		return "Europe"
+
+	elseif country == "Japan" then
+
+		return "Asia"
+
+end
+
+end
+
+You reference the fields you want to evaluate using their short name inside round brackets (in this case country). You include the field values in inverted commas. 
