@@ -2,7 +2,7 @@
 
 # Working with dates in your Lua calculations
 
-Values in Linkspace date fields are passed as Lua table values with the indexes *year*, *month*, *day*and *epoch*. (Tables are how you structure data in Lua. Learn more about Lua tables) You can reference the operating system date and time by using os.time.
+Values in Linkspace date fields are passed as Lua table values with the indexes *year*, *month*, *day*and *epoch*. You can reference the operating system date and time by using ``` os.time```.
 
 Where you are evaluating dates, the value returned by your calculation should be in [epoch time](https://www.epochconverter.com/), which will then be converted to a full date by Linkspace.
 
@@ -31,6 +31,16 @@ In this calculation you reference the current date using os.time, and convert th
 
 ### Date range fields
 
-Date ranges are also passed as Lua tables with the table indexes from and to which contain the same tables a date field would (i.e. with the tables indexes year, month, day and epoch). Example of calculated values using a date range field ```
+Date ranges are also passed as Lua tables with the table indexes from and to which contain the same tables a date field would (i.e. with the tables indexes year, month, day and epoch). Example of calculated values using a date range field 
+```
 
-function evaluate (projectschedule) if projectschedule == nil then return "No project schedule" end if projectschedule.from.epoch &lt; os.time() then return "Project underway" end if projectschedule.from.epoch &lt; os.time() + (86400 \* 30) then return "Starts within 30 days" end return "Not yet started" end ```
+function evaluate (projectschedule) 
+    if projectschedule == nil then 
+        return "No project schedule" 
+    end 
+    if projectschedule.from.epoch &lt; os.time() then  
+        return "Project underway" 
+    end 
+    if projectschedule.from.epoch &lt; os.time() + (86400 \* 30) then   
+        return "Starts within 30 days" end return "Not yet started" 
+        end ```
