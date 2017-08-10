@@ -16,6 +16,7 @@ if reviewdate.epoch < os.time() then
 if reviewdate.epoch < os.time() + (86400 * 30) then
         return "amber"
     end
+end
 
 ```
 In this calculation you reference the current date using os.time, and convert the time to epoch time. 
