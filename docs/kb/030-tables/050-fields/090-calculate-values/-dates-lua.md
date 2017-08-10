@@ -3,7 +3,7 @@
 Values in Linkspace date fields are passed as Lua table values with the indexes year, month, day and epoch. (Tables are how you structure data in Lua. Learn more about Lua tables) 
 You can reference the operating system date and time by using os.time. 
 ### Example of a calculation for a RAG field that uses dates
-The return values for the calculation in a RAG status field should always be “red”, “amber” or “green”. You can also return nothing, which will be interpreted as grey. Any other values, or code causing errors, will display purple.
+
 For example, you could use a RAG status field to keep track of reviews.  Completed reviews would be “green”, those scheduled within the next 30 days would be “amber” and those with no scheduled date would be “red”. 
 
 ```
