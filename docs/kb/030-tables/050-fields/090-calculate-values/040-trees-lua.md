@@ -4,8 +4,8 @@ Tree values are passed as Lua table values with the indexes *value* and *parents
 ## Example of calculated values based on tree nodes
 
 ```
-function evaluate (regions)
-    if parent1.parent2.value == nil then
-        return "This is a country-wide project"
+function evaluate (mytree)
+    if mytree.parents.parent2 == nil then
+        return "No level 2 value selected"
 end
 ```
