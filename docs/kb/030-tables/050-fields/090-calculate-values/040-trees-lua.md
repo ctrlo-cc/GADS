@@ -6,27 +6,28 @@
 
 ## Example of calculated values based on tree nodes
 
-You can evaluate a tree field according to the final node selected, or according to a parent node. For example, if you wanted to auto-fill a Project Office field based on the region in which the project was based you could use the following if your regions field was set up as a tree field:
+You can evaluate a tree field according to the final node selected, or according to a parent node. For example, if you wanted to auto-fill a Project Office field based on the region (short name = *regions*) in which the project was based you could use the following if your region field was set up as a tree field:
 
 ```
- function evaluate (regions) 
+ function evaluate (regions)
     if regions.parents.parent1 == "nil" then
-        return "None" 
-    end 
-    
-    if regions.parents.parent1 == "Australia" then 
-        return "Asia Pacific" 
-    end 
-        
-    if regions.parents.parent1 == "South Africa" then 
-        return "Africa Middle East" 
-    end 
-    if regions.value == "Hampshire" then 
-        return "UK South East" 
-    end 
-    
-    if regions.value == "Yorkshire" then 
-        return "UK North" 
+        return "None"
+    end
+
+    if regions.parents.parent1 == "Australia" then
+        return "Asia Pacific"
+    end
+
+    if regions.parents.parent1 == "South Africa" then
+        return "Africa Middle East"
+    end
+
+    if regions.value == "Hampshire" then
+        return "UK South East"
+    end
+
+    if regions.value == "Yorkshire" then
+        return "UK North"
     end
 end
 ```
